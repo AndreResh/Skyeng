@@ -1,0 +1,8 @@
+PATCH http://localhost:8080/postal/delivery/received
+Content-Type: application/json
+
+{
+  "deliveryId": 1,
+  "address": "addressFinish",
+  "name": "andre"
+}

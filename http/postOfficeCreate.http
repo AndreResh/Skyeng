@@ -1,0 +1,27 @@
+POST http://localhost:8080/post/office
+Content-Type: application/json
+
+{
+  "address": "addressStart",
+  "name": "start"
+}
+
+###
+
+POST http://localhost:8080/post/office
+Content-Type: application/json
+
+{
+"address": "addressMiddle",
+"name": "middle"
+}
+
+###
+
+POST http://localhost:8080/post/office
+Content-Type: application/json
+
+{
+  "address": "addressFinish",
+  "name": "finish"
+}

@@ -1,0 +1,17 @@
+PATCH http://localhost:8080/postal/delivery/intermediate/office/come
+Content-Type: application/json
+
+{
+  "deliveryId": 1,
+  "address": "addressMiddle"
+}
+
+###
+
+PATCH http://localhost:8080/postal/delivery/intermediate/office/come
+Content-Type: application/json
+
+{
+  "deliveryId": 1,
+  "address": "addressFinish"
+}

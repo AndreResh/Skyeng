@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PostDeliveryResponse {
+public class PostDeliveryStatusResponse {
     private Status status;
 }

@@ -1,0 +1,10 @@
+POST http://localhost:8080/postal/delivery/registration
+Content-Type: application/json
+
+{
+  "type": "Письмо",
+  "indexRecipient": 11,
+  "addressRecipient": "addressFinish",
+  "postOfficeAddress": "addressStart",
+  "nameRecipient": "andre"
+}
